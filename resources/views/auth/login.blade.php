@@ -1,18 +1,18 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container" style="padding-top: 15%">
+<div class="container" style="padding-top: 10%; background: #FEFAE0;">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Inicio de sesión') }}</div>
+                <div class="card-header" style="background: #D4A373">{{ __('Inicio de sesión') }}</div>
 
-                <div class="card-body">
+                <div class="card-body" style ="background: #FAEDCD">
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
 
                         <div class="row mb-3">
-                            <label for="email" class="col-md-4 col-form-label text-md-end">{{ __('Email Address') }}</label>
+                            <label for="email" class="col-md-4 col-form-label text-md-end">{{ __('Correo electronico') }}</label>
 
                             <div class="col-md-6">
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
@@ -26,7 +26,7 @@
                         </div>
 
                         <div class="row mb-3">
-                            <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('Password') }}</label>
+                            <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('Contraseña') }}</label>
 
                             <div class="col-md-6">
                                 <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
@@ -38,7 +38,7 @@
                                 @enderror
                             </div>
                         </div>
-                        
+
 
                         <div class="row mb-3">
                             <div class="col-md-6 offset-md-4">
@@ -46,7 +46,7 @@
                                     <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
 
                                     <label class="form-check-label" for="remember">
-                                        {{ __('Remember Me') }}
+                                        {{ __('Recordarme') }}
                                     </label>
                                 </div>
                             </div>
@@ -54,13 +54,13 @@
 
                         <div class="row mb-0">
                             <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Login') }}
+                                <button type="submit" class="btn-primary btn border-light" style="background: #D4A373 ">
+                                    {{ __('Inicio de sesion') }}
                                 </button>
 
                                 @if (Route::has('password.request'))
                                     <a class="btn btn-link" href="{{ route('password.request') }}">
-                                        {{ __('Forgot Your Password?') }}
+                                        {{ __('¿Olvidaste tu contraseña?') }}
                                     </a>
                                 @endif
                             </div>
