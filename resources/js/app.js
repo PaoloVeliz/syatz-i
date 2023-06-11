@@ -17,8 +17,34 @@ const app = createApp({});
 
 import ExampleComponent from './components/ExampleComponent.vue';
 import IntroductionComponent from './components/Home/IntroductionComponent.vue';
+import AdoptionCardsComponent from './components/Home/AdoptionCardsComponent.vue';
+import ActionComponent from './components/Home/ActionComponent.vue';
+import FriendCardComponent from './components/Home/FriendCardComponent.vue';
+import NewsCardComponent from './components/News/NewsCardComponent.vue';
+import NewsListComponent from './components/News/NewsListComponent.vue';
+import ActionsComponent from './components/News/ActionsComponent.vue';
+import HotelActionsComponent from './components/Hotels/ActionsComponent.vue';
+import HotelCardComponent from './components/Hotels/HotelCardComponent.vue';
+import HotelListComponent from './components/Hotels/HotelListComponent.vue';
+
+
+
 app.component('example-component', ExampleComponent);
 app.component('inicio-component', IntroductionComponent);
+app.component('adoption-component', AdoptionCardsComponent);
+app.component('actions-component', ActionComponent);
+app.component('friend-card', FriendCardComponent);
+app.component('news-card', NewsCardComponent);
+app.component('news-list', NewsListComponent);
+app.component('actions-list', ActionsComponent);
+app.component('hotels-list', HotelListComponent);
+app.component('hotels-card', HotelCardComponent);
+app.component('hotels-actions', HotelActionsComponent);
+
+
+
+
+
 
 /**
  * The following block of code may be used to automatically register your
