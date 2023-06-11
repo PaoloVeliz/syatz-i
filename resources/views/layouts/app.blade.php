@@ -16,7 +16,7 @@
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
-<body style="background: #ccd5ae;">
+<body style="background: #FAEDCD;">
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm m-0">
             <div class="container">
@@ -50,12 +50,12 @@
                             @endif
                         @else
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('login') }}">{{ __('Quiero dar ') }}</a>
+                            <a class="nav-link" href="{{ route('login') }}">{{ __('Adopcion') }}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                            <a class="nav-link" href="/news">{{ __('Noticias') }}</a>
                         </li> <li class="nav-item">
-                            <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                            <a class="nav-link" href="/hotels">{{ __('Hoteles') }}</a>
                         </li>
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
@@ -80,7 +80,7 @@
             </div>
         </nav>
 
-        <main style="height: 100%; width: 100%;background: #ccd5ae">
+        <main style="height: 100%; width: 100%;background: #FAEDCD">
             @yield('content')
         </main>
     </div>
