@@ -1,36 +1,31 @@
 @extends('layouts.app')
 
 @section('content')
-<div style="width: 100%">
-    <h1>hola</h1>
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <!-- <img src="..." class="d-block w-100" alt="..."> -->
-            <div class="d-block w-100"> que onda</div>
-          </div>
-          <div class="carousel-item">
-            <!-- <img src="..." class="d-block w-100" alt="..."> -->
-            <div class="d-block w-100"> que onda</div>
-          </div>
-          <div class="carousel-item">
-            <!-- <img src="..." class="d-block w-100" alt="..."> -->
-            <div class="d-block w-100"> que onda</div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+<div style="width: 100%; display: flex; flex-direction: column">
+  <div style="width: 100%; display: flex; align-content: center; justify-content: center;">
+  <h1 style="padding-top: 10px;">Bienvenido {{auth()->user()->name }} que quieres hacer el dia de hoy</h1>
+    </div>  
+    
+    <div>
+      <inicio-component/>
       </div>
+      <div style="width: 100%; display: flex; align-content: center; justify-content: center;">
+        <h2 style="padding-top: 10px;">El dia de hoy quiero dar</h2>
+      </div>
+      <div style="display: flex; align-items: center; justify-content: center; padding-right: 20px">
+        <actions-component/>
+        {{-- <div>hola</div> --}}
+      </div>
+      <div  style="width: 100%; display: flex; align-content: center; justify-content: center;">
+        <h2 style="padding-top: 10px;">Conoce a grandes amigos!</h2>
+      </div>
+      
+    <div>
+      <adoption-component/>
+    </div>
+ 
+       {{-- <adoption-component/> --}}
+      {{-- hola --}}
+ 
 </div>
 @endsection
