@@ -16,9 +16,10 @@
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
-<body style="background: #FAEDCD;">
+<body style="background: #FEFAE0;">
+
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm m-0">
+        <nav class="navbar navbar-expand-md navbar-light shadow-sm m-0" style="background: #D4A373">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
@@ -39,13 +40,13 @@
                         @guest
                             @if (Route::has('login'))
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                    <a class="nav-link" href="{{ route('login') }}">{{ __('Inicio') }}</a>
                                 </li>
                             @endif
 
                             @if (Route::has('register'))
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Registro') }}</a>
                                 </li>
                             @endif
                         @else
@@ -79,8 +80,7 @@
                 </div>
             </div>
         </nav>
-
-        <main style="height: 100%; width: 100%;background: #FAEDCD">
+        <main style="height: 100%; width: 100%;background: #FEFAE0">
             @yield('content')
         </main>
     </div>

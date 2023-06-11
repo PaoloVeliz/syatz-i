@@ -37,19 +37,19 @@
 }
         </style>
     </head>
-    <body 
+    <body
     {{-- class="sm:flex sm:justify-center sm:items-center"  --}}
     style="background: #ccd5ae;
     gap: 10px;
     height: 100%;
     min-height: 100%;
     width: 100%"
-    class="grid-container"    
+    class="grid-container"
     >
 
         <div>
             @if (Route::has('login'))
-            <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right"> 
+            <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right">
                 @auth
                     <a style="padding-right: 10px; font-size: 30px" href="{{ url('/home') }}">Home</a>
                 @else
@@ -62,20 +62,45 @@
             </div>
         @endif
         </div>
-            
+
         <div class="item3">
             <div>
-                <h1 style="font-size: 100px">Somos Appets</h1>
+                <h1 style="font-size: 100px">Somos Syatz'i'</h1>
             </div>
             <div>
-                La mision es buscar el amigo correcto para la mascota correcta
+                <h2>Misión</h2><br />
+                <p>Somos un sitio web que da a conocer sobre lugares que pueden llegar a brindar un refugio para aquellas mascotas sin hogar, donde aquellos voluntarios o lugares que tenga la capacidad de dar un lugar que los llene de seguridad, amor y que vele por su seguridad. Donde no solo la busqueda de un lugar sea la importante si no el estar informados de cualquier evento o actividad relevante sea comunicada para todos aquellos amantes de los animales.</p>
             </div>
             <div>
-                Buscamos ayudar tanto en la adopcion de perros y gatos como en encontrar un lugar provisional
+                <h2>Vision</h2><br />
+                <p>Nuestra visión es ser reconocidos como un sitio web referente en brindar a una persona o grupo la oportunidad de cuidar, proteger y adoptar a una mascota creando así un sitio en el que cada animal pueda encontrar un hogar lleno de amor y compasión. El esfuerzo que se da por parte de las instituciones y personas será un modelo a seguir para toda la población quetzalteca para que todos puedan colaborar y lograr así un cambio positivo en la vida de las mascotas.</p>
+            </div>
+            <div>
+                <h2>¿Qué Buscamos?</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="list-group" id="list-tab" role="tablist">
+                            <a class="list-group-item list-group-item-action active" id="list-walfare-list" data-toggle="list" href="#list-walfare" role="tab" aria-controls="walfare">Bienestar animal</a>
+                            <a class="list-group-item list-group-item-action active" id="list-adoption-list" data-toggle="list" href="#list-adoption" role="tab" aria-controls="adoption">Adopción exitosa</a>
+                            <a class="list-group-item list-group-item-action active" id="list-education-list" data-toggle="list" href="#list-education" role="tab" aria-controls="education">Educación y concientización</a>
+                            <a class="list-group-item list-group-item-action active" id="list-collaboration-list" data-toggle="list" href="#list-collaboration" role="tab" aria-controls="collaboration">Colaboración y alianzas estrategicas</a>
+                            <a class="list-group-item list-group-item-action active" id="list-inspiration-list" data-toggle="list" href="#list-inspiration" role="tab" aria-controls="inspiration">Inspirar a la comunidad</a>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="list-walfare" role="tabpanel" aria-labelledby="list-walfare-list">Brindamos un sitio para que las instituciones o personas logren encontrar un sitio donde se asegure el bienestar físico, emocional y social de todas las mascotas bajo el cuidado los hogares. Nuestro objetivo es ser un sitio donde personas que buscan adoptar una mascota tengan la oportunidad de brindar una vida plena, libre de sufrimiento y enriquecida con amor y atención constante.</div>
+                            <div class="tab-pane fade show active" id="list-adoption" role="tabpanel" aria-labelledby="list-adoption-list">Nos esforzamos por facilitar el arduo trabajo de instituciones que buscan dar hogares amorosos y permanentes para todas las mascotas que llegan a sus centros. Apoyando a la causa aumentando las tasas de adopción exitosas y por ser el punto de referencia para la pobalción quetzalteca para encontrar la mascota perfecta.</div>
+                            <div class="tab-pane fade show active" id="list-education" role="tabpanel" aria-labelledby="list-education-list">Buscamos educar y concientizar sobre la responsabilidad de tener una mascota. Mediante la publicación de distintas actividades brindando un espacio para que aquellas instituciones que realizan programas de educación, campañas de sensibilización y eventos comunitarios, promueven la adopción responsable, el trato ético hacia los animales y la importancia de esterilización y castración.</div>
+                            <div class="tab-pane fade show active" id="list-collaboration" role="tabpanel" aria-labelledby="list-collaboration-list">Nos esforzamos por generar un medio con el cual se generen alianzas sólidas entre organizaciones, veterinarios, rescatistas y voluntarios que compartan nuestra visión y valores. Juntos, podemos ampliar nuestro impacto, aumentar la capacidad de ayuda y trabajar de manera más efectiva en beneficio de los animales.</div>
+                            <div class="tab-pane fade show active" id="list-inspiration" role="tabpanel" aria-labelledby="list-inspiration-list">Buscamos inspirar a las personas a ver a los animales como seres valiosos y a tratarlos con respeto y compasión. Buscamos cambiar las actitudes y comportamientos hacia los animales, fomentando una comunidad que se preocupe por su bienestar y se comprometa a protegerlos.</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-            
+
 
     </body>
 </html>
