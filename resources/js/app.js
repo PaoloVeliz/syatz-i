@@ -20,12 +20,15 @@ import IntroductionComponent from './components/Home/IntroductionComponent.vue';
 import AdoptionCardsComponent from './components/Home/AdoptionCardsComponent.vue';
 import ActionComponent from './components/Home/ActionComponent.vue';
 import FriendCardComponent from './components/Home/FriendCardComponent.vue';
+import FosterHomeCardComponent from './components/Home/FosterHomeCardComponent.vue';
+import FosterHomeListComponent from './components/Home/FosterHomeListComponent.vue';
 import NewsCardComponent from './components/News/NewsCardComponent.vue';
 import NewsListComponent from './components/News/NewsListComponent.vue';
 import ActionsComponent from './components/News/ActionsComponent.vue';
 import HotelActionsComponent from './components/Hotels/ActionsComponent.vue';
 import HotelCardComponent from './components/Hotels/HotelCardComponent.vue';
 import HotelListComponent from './components/Hotels/HotelListComponent.vue';
+import ShowContentComponent from './components/Home/ShowContentComponent.vue';
 
 
 
@@ -40,7 +43,9 @@ app.component('actions-list', ActionsComponent);
 app.component('hotels-list', HotelListComponent);
 app.component('hotels-card', HotelCardComponent);
 app.component('hotels-actions', HotelActionsComponent);
-
+app.component('show-content', ShowContentComponent);
+app.component('foster-list',FosterHomeListComponent);
+app.component('foster-card',FosterHomeCardComponent);
 
 
 

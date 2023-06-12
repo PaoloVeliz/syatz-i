@@ -9,7 +9,7 @@
     >
         <button
             type="button"
-            class="btn"
+            class="btn btn-lg"
             style="background: #6d997a; color: aliceblue; margin-right: 10px"
             data-bs-toggle="modal"
             data-bs-target="#showAFriendModal"
@@ -18,7 +18,7 @@
         </button>
         <button
             type="button"
-            class="btn"
+            class="btn btn-lg"
             style="background: #6d997a; color: aliceblue"
             data-bs-toggle="modal"
             data-bs-target="#exampleModalToggleTemporal"
