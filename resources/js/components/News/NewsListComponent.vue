@@ -1,15 +1,8 @@
 <script></script>
 <template>
     <div class="grid-container">
-        <news-card/>
-        <news-card/>
-        <news-card/>
-        <news-card/>
-        <news-card/>
-        <news-card/>
-        <news-card/>
-        <news-card/>
-        <news-card/>
+        <missing-card/>
+        <vaccination-card/>
         <news-card/>
     </div>
 </template>

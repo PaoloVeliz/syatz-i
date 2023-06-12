@@ -7,10 +7,6 @@
         <hotels-card/>
         <hotels-card/>
         <hotels-card/>
-        <hotels-card/>
-        <hotels-card/>
-        <hotels-card/>
-        <hotels-card/>
     </div>
 </template>
 <style>
