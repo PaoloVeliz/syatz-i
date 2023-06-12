@@ -1,12 +1,15 @@
 <template>
-    <div class="card">
-  <div class="card-header">
-    Jornada de vacunacion
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">Domingo 11 de Junio de 2023</h5>
-    <p class="card-text">Se estara vacunando en interplaza</p>
-    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-  </div>
+  <div class="card">
+<div class="card-header">
+  <img src="/assets/images/pexels-helena-lopes-4009988.jpg" class="card-img-top" alt="..." />
+</div>
+<div class="card-body">
+  <h3 class="card-tag">
+      PetHotel
+  </h3>
+  <h5 class="card-title">Con atención personalizada y actividades para tu mascota</h5>
+  <p class="card-text">Puedes comunicarte al 43678123 para información de disponibilidad</p>
+  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+</div>
 </div>
 </template>

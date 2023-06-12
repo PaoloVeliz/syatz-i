@@ -31,5 +31,5 @@
     </div>
   </div>
 </div>
-<a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Open first modal</a>
+<a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Encuentra un Hotel</a>
 </template>

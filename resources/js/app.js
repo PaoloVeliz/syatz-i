@@ -28,8 +28,9 @@ import ActionsComponent from './components/News/ActionsComponent.vue';
 import HotelActionsComponent from './components/Hotels/ActionsComponent.vue';
 import HotelCardComponent from './components/Hotels/HotelCardComponent.vue';
 import HotelListComponent from './components/Hotels/HotelListComponent.vue';
+import VaccinationCardComponent from './components/News/VaccinationCardComponent.vue';
+import MissingCardComponent from './components/News/MissingCardComponent.vue';
 import ShowContentComponent from './components/Home/ShowContentComponent.vue';
-
 
 
 app.component('example-component', ExampleComponent);
@@ -43,6 +44,8 @@ app.component('actions-list', ActionsComponent);
 app.component('hotels-list', HotelListComponent);
 app.component('hotels-card', HotelCardComponent);
 app.component('hotels-actions', HotelActionsComponent);
+app.component('vaccination-card', VaccinationCardComponent);
+app.component('missing-card', MissingCardComponent);
 app.component('show-content', ShowContentComponent);
 app.component('foster-list',FosterHomeListComponent);
 app.component('foster-card',FosterHomeCardComponent);
