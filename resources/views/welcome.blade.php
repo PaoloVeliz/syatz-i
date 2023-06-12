@@ -23,20 +23,6 @@
                         <img src="/assets/images/maltipoo.jpg" alt="dog" class="card-img-bottom" style="height: 350px">
                     </div>
                 </div>
-                <!-- <div class="m-0 row justify-content-center h-auto d-inline-block card" style="width: 350px; background: #FEFAE0; border: 0">
-                    <img src="/assets/images/friends.png" alt="dog" class="card-img opacity-50" style="height: 350px">
-                    <div class="card-img-overlay">
-                        <h2 class="text-center">Misión</h2><br />
-                        <p style="text-align:justify; text-justify:inter-word">Somos un sitio web que da a conocer sobre lugares que pueden llegar a brindar un refugio para aquellas mascotas sin hogar, donde aquellos voluntarios o lugares que tenga la capacidad de dar un lugar que los llene de seguridad, amor y que vele por su seguridad. Donde no solo la busqueda de un lugar sea la importante si no el estar informados de cualquier evento o actividad relevante sea comunicada para todos aquellos amantes de los animales.</p>
-                    </div>
-                </div>
-                <div class="m-0 row justify-content-center h-auto d-inline-block card" style="width: 350px; background: #FEFAE0; border: 0">
-                    <img src="/assets/images/happy.png" alt="dog" class="card-img opacity-50" style="height: 350px">
-                    <div class="card-img-overlay">
-                        <h2 class="text-center">Visión</h2><br />
-                        <p style="text-align:justify; text-justify:inter-word">Nuestra visión es ser reconocidos como un sitio web referente en brindar a una persona o grupo la oportunidad de cuidar, proteger y adoptar a una mascota creando así un sitio en el que cada animal pueda encontrar un hogar lleno de amor y compasión. El esfuerzo que se da por parte de las instituciones y personas será un modelo a seguir para toda la población quetzalteca para que todos puedan colaborar y lograr así un cambio positivo en la vida de las mascotas.</p>
-                    </div>
-                </div> -->
             </div>
             <div >
                 <h2 class="text-center" style="margin-top: 30px">¿Qué Buscamos?</h2>
