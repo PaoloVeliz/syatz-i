@@ -4,7 +4,7 @@ Este proyecto pretende dar a conocer sobre lugares que pueden llegar a brindar u
 
 ## La aplicacion en produccion
 Cable recalcar que este es un prototipo de aplicacion, esto debido a implementarlo tendría un costo muy alto, presupuesto que se espera tener en el futuro :)
-[Ve nuestra aplicacion](44.201.131.123)
+[Ve nuestra aplicacion](http://44.201.131.123/)
 
 
 ## Como funciona Syatz'i'
