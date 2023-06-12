@@ -22,7 +22,7 @@
         <nav class="navbar navbar-expand-md navbar-light shadow-sm m-0" style="background: #D4A373">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
+                    <img src="/assets/images/logo.svg" alt="logo" style="width: 80px; filter: invert(66%) sepia(64%) saturate(240%) hue-rotate(349deg) brightness(90%) contrast(95%); background: #FEFAE0; border: 0">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -40,13 +40,13 @@
                         @guest
                             @if (Route::has('login'))
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('login') }}">{{ __('Inicio') }}</a>
+                                    <a class="nav-link" href="{{ route('login') }}">{{ __('Iniciar seción') }}</a>
                                 </li>
                             @endif
 
                             @if (Route::has('register'))
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Registro') }}</a>
+                                    <a class="nav-link" href="{{ route('register') }}">{{ __('¿Quieres formar parte de la familia?') }}</a>
                                 </li>
                             @endif
                         @else
