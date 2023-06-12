@@ -2,6 +2,11 @@
 # Syatz'i'
 Este proyecto pretende dar a conocer sobre lugares que pueden llegar a brindar un refugio para aquellas mascotas sin hogar así como de las personas interesadas en la adopción permanente, donde no solo la búsqueda de un lugar sea lo importante si no el estar informados de cualquier evento o actividad relevante para que sea comunicada a todos aquellos amantes de los animales.
 
+## La aplicacion en produccion
+Cable recalcar que este es un prototipo de aplicacion, esto debido a implementarlo tendría un costo muy alto, presupuesto que se espera tener en el futuro :)
+[Ve nuestra aplicacion](44.201.131.123)
+
+
 ## Como funciona Syatz'i'
 Es un sitio web desde el cuál se cuenta con las siguientes opciones:
 - Catálogo: Permitirá a las personas navegar por los distintos perfiles de las mascotas disponibles y contactar a los rescatistas para iniciar el proceso de adopción.
