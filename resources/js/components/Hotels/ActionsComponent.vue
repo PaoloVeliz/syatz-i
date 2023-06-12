@@ -3,14 +3,18 @@
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+        <h5 class="modal-title" id="exampleModalToggleLabel">Antes de comenzar</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        Show a second modal and hide this one with the button below.
+        La informacion puesta aqui, será posteriormente verifica por una llamada de los colaboradores
+        <hr>
+        Al terminar de llenar el formulario, no verá su publicacion por que debemos comprobar la informacion
+        <hr>
+        gracias de antemano
       </div>
       <div class="modal-footer">
-        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Open second modal</button>
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Entiendo</button>
       </div>
     </div>
   </div>
@@ -19,14 +23,33 @@
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+        <h5 class="modal-title" id="exampleModalToggleLabel2">Datos generales</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        Hide this modal and show the first with the button below.
+        <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Titulo</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">Escribe en una frase la noticia que quieres reportar.</div>
+  </div>
+  <div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Descripcion</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  <div id="emailHelp" class="form-text">Describe la noticia que quieres reportar.</div>
+
+</div>
+<div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Que fecha va a ser</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">Coloca la fecha y hora del evento, si es en un futuro o cuando pasó la noticia</div>
+  </div>
+  <div class="mb-3">
+  <label for="formFile" class="form-label">Coloca una foto del evento</label>
+  <input class="form-control" type="file" id="formFile">
+</div>
       </div>
       <div class="modal-footer">
-        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button>
+        <button class="btn btn-primary" data-bs-dismiss="modal">Terminar</button>
       </div>
     </div>
   </div>

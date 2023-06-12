@@ -145,6 +145,10 @@
                             placeholder="12345678"
                         />
                     </div>
+                    <div class="mb-3">
+  <label for="formFile" class="form-label">Coloca una foto de tu amigo para que lo conozcan mejor</label>
+  <input class="form-control" type="file" id="formFile">
+</div>
                 </div>
                 <div class="modal-footer">
                     <button
@@ -452,6 +456,10 @@
                             placeholder="12345678"
                         />
                     </div>
+                    <div class="mb-3">
+  <label for="formFile" class="form-label">Coloca una foto de tu casa para poder mostrar donde se quedaria</label>
+  <input class="form-control" type="file" id="formFile">
+</div>
                 </div>
                 <div class="modal-footer">
                     <button
